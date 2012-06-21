@@ -17,7 +17,7 @@ import pywintypes, win32com.client
 sys.setrecursionlimit(sys.getrecursionlimit() * 20) # ※
 VISIBLE = True
 TITLE = u'迷路'
-HEIGHT, WIDTH, OFFSET_ROW, OFFSET_COL = 8, 16, 2, 2
+HEIGHT, WIDTH, OFFSET_ROW, OFFSET_COL = 100, 100, 2, 2
 MAX_ROW, MAX_COL = OFFSET_ROW + HEIGHT - 1, OFFSET_COL + WIDTH - 1
 sheet = None
 
